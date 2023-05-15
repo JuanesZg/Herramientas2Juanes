@@ -1,0 +1,15 @@
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.csproj.AssemblyReference.cache
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.AssemblyInfoInputs.cache
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.AssemblyInfo.cs
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.csproj.CoreCompileInputs.cache
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\bin\Debug\net6.0\EjemploArraysDos.exe
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\bin\Debug\net6.0\EjemploArraysDos.deps.json
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\bin\Debug\net6.0\EjemploArraysDos.runtimeconfig.json
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\bin\Debug\net6.0\EjemploArraysDos.dll
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\bin\Debug\net6.0\EjemploArraysDos.pdb
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.dll
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\refint\EjemploArraysDos.dll
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.pdb
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\EjemploArraysDos.genruntimeconfig.cache
+C:\Users\Sena\Documents\Herramientas2Juanes\EjemploArraysDos\obj\Debug\net6.0\ref\EjemploArraysDos.dll
