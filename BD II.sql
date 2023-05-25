@@ -74,3 +74,20 @@ TRUNCATE TABLE torneo;
 SELECT * FROM Torneo;
 SELECT * FROM Equipo;
 SELECT * FROM Deportista;
+
+/* EJEMPLOS CON LA BASE DE DATOS ADVENTURE WORKS 2019 - CROSS APPLY Y OUTER APPLY*/
+
+-- /*EJEMPLO DE CROSS APPLY*/
+
+-- SELECT * FROM [Production].[Product];
+-- SELECT * FROM [Production].[ProductInventory];
+
+-- SELECT * FROM Production.Product AS PRO
+-- CROSS APPLY
+-- (SELECT * FROM Production.ProductInventory AS INV WHERE PRO.ProductID = INV.ProductID) Tab
+
+-- /*EJEMPLO DE OUTER APPLY*/
+
+-- SELECT * FROM Production.Product AS PRO
+-- CROSS APPLY
+-- (SELECT * FROM Production.ProductInventory AS INV WHERE PRO.ProductID =    INV.ProductID) Tab
