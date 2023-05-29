@@ -2,6 +2,8 @@ DROP DATABASE IF EXISTS Carros;
 CREATE DATABASE Carros;
 USE Carros;
 
+/*------------------------------------------------------------------------------------CREACIÓN DE TABLAS-----------------------------------------------------------------------------------*/
+
 CREATE TABLE tipo_vehiculo(
 	id_tipo_vehiculo INT PRIMARY KEY,
 	nombre VARCHAR(100)
@@ -41,46 +43,23 @@ CREATE TABLE tipo_conductor(
 	nombre VARCHAR(255)
 );
 
+/* --------------------------------------------------------------------------------CONSTRAINTS - FOREIGN KEYS------------------------------------------------------------------------------*/
+
 /*CONSTRAINTS - FOREIGN KEYS DE RUTA*/
 ALTER TABLE ruta ADD CONSTRAINT fk_ruta_vehiculo FOREIGN KEY (id_vehiculo) REFERENCES vehiculo (id_vehiculo);
 
 /*CONSTRAINTS - FOREIGN KEYS DE VEHICULO*/
 
-/* PROCEDIMIENTOS ALMACENADOS -------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+ALTER TABLE vehiculo ADD CONSTRAINT fk_vehiculo_tipo_vehiculo FOREIGN KEY (id_tipo_vehiculo) REFERENCES tipo_vehiculo (id_tipo_vehiculo);
 
-/*PROCEDIMIENTO PARA INSERTAR DATOS*/
-create proc registrarTipoVehiculo
-(
-	@id int, @nombre varchar(100)
-)
-as insert into tipo_vehiculo values(@id, @nombre);
+/*CONSTRAINTS - FOREIGN KEYS DE CONTRATO*/
 
-exec registrarTipoVehiculo 3, 'Avion';
+ALTER TABLE contrato ADD CONSTRAINT fk_contrato_vehiculo FOREIGN KEY (id_vehiculo) REFERENCES vehiculo (id_vehiculo);
 
-/*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
+ALTER TABLE contrato ADD CONSTRAINT fk_contrato_conductor FOREIGN KEY (id_conductor) REFERENCES conductor (id_conductor);
 
-create proc actualizarTipoVehiculo
-(
-	@id int, @nombre varchar(100)
-)
-as update tipo_vehiculo set nombre = @nombre where id_tipo_vehiculo = @id;
+/*CONSTRAINTS - FOREIGN KEYS DE CONDUCTOR*/
 
-exec actualizarTipoVehiculo 3, 'Carro';
+ALTER TABLE conductor ADD CONSTRAINT fk_conductor_vehiculo FOREIGN KEY (id_vehiculo) REFERENCES vehiculo (id_vehiculo);
 
-/*PROCEDIMIENTO PARA ELIMINAR DATOS*/
-
-create proc eliminarTipoVehiculo
-(
-	@id int
-)
-as delete from tipo_vehiculo where id_tipo_vehiculo = @id;
-
-exec eliminarTipoVehiculo 3;
-
-/*PROCEDIMIENTO PARA MOSTRAR DATOS*/
-
-create proc listarTipoVehiculo
-as 
-SELECT * FROM tipo_vehiculo ORDER BY id_tipo_vehiculo ASC;
-
-exec listarTipoVehiculo;
+ALTER TABLE conductor ADD CONSTRAINT fk_conductor_tipo_conductor FOREIGN KEY (id_tipo_conductor) REFERENCES tipo_conductor (id_tipo_conductor);
