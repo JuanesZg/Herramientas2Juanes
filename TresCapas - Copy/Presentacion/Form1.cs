@@ -16,7 +16,7 @@ namespace Presentacion
         public Form1()
         {
             InitializeComponent();
-            dataGridView1.DataSource = AccesoLogica.ObtenerTiposVehiculo();
+            dataGridView1.DataSource = AccesoLogicaTipoVehi.ObtenerTiposVehiculo();
             limpiarCampos();
         }
 
@@ -31,7 +31,7 @@ namespace Presentacion
         {            
              //if (!Page.IsValid)
              //return;
-             AccesoLogica negocio = new AccesoLogica();
+             AccesoLogicaTipoVehi negocio = new AccesoLogicaTipoVehi();
              int idtipo = Int32.Parse(txtIDTipoVehi.Text);
              string nombretipo = txtNomTipo.Text;
              int resultado = negocio.Insert(idtipo, nombretipo);
@@ -48,7 +48,7 @@ namespace Presentacion
         //Metodo mostrar registros en una grid
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = AccesoLogica.ObtenerTiposVehiculo();
+            dataGridView1.DataSource = AccesoLogicaTipoVehi.ObtenerTiposVehiculo();
             //dataGridView1.DataBindings();
 
         }
@@ -66,7 +66,7 @@ namespace Presentacion
             dataGridView1[1, pocision].Value = txtNomTipo.Text;
             limpiarCampos();*/
 
-            AccesoLogica negocioactualizar = new AccesoLogica();
+            AccesoLogicaTipoVehi negocioactualizar = new AccesoLogicaTipoVehi();
             int idtipo = Int32.Parse(txtIDTipoVehi.Text);
             string nombretipo = txtNomTipo.Text;
 
@@ -90,7 +90,7 @@ namespace Presentacion
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            AccesoLogica negocioeliminar = new AccesoLogica();
+            AccesoLogicaTipoVehi negocioeliminar = new AccesoLogicaTipoVehi();
             int idtipo = Int32.Parse(txtIDTipoVehi.Text);
 
             int resultadoeliminar = negocioeliminar.delete(idtipo);
@@ -103,6 +103,11 @@ namespace Presentacion
                 lblMensaje.Text = "Registro no Eliminado";
                 negocioeliminar = null;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

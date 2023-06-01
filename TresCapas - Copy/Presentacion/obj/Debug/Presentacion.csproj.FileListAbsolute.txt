@@ -29,3 +29,4 @@ C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\De
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormTipoConduc.resources

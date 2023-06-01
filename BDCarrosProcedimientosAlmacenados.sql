@@ -39,3 +39,4 @@ exec actualizarTipoConductor 3, 'Juancho';
 exec eliminarTipoConductor 3;
 exec listarTipoConductor;
 */
+[dbo].[dbo].[]
