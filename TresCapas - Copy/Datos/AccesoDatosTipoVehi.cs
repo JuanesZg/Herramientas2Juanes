@@ -8,14 +8,13 @@ using System.Data;
 
 namespace Datos
 {
-    public class AccesoDatos
+    public class AccesoDatosTipoVehi
     {
         public int Insert(int idtipo, string nombretipo)
         {
             SqlCommand _comando = TipoVehiCRUD.CrearComandoProc();
             _comando.Parameters.AddWithValue("@id", idtipo);
-            _comando.Parameters.AddWithValue("@nombre", nombretipo); 
-            
+            _comando.Parameters.AddWithValue("@nombre", nombretipo);
             return TipoVehiCRUD.EjecutarComandoInsert(_comando);
         }
 

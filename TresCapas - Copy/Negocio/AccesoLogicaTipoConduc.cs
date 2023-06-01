@@ -9,28 +9,28 @@ using Datos;
 
 namespace Negocio
 {
-    public class AccesoLogica
+    public class AccesoLogicaTipoConduc
     {
         public int Insert(int idtipo, string nombretipo)
         {
-            AccesoDatos acceso = new AccesoDatos();
+            AccesoDatosTipoConduc acceso = new AccesoDatosTipoConduc();
             return acceso.Insert(idtipo, nombretipo);
         }
 
-        public static DataTable ObtenerTiposVehiculo()
+        public static DataTable ObtenerTiposConduc()
         {
-            return AccesoDatos.ObtenerTiposVehiculo();
+            return AccesoDatosTipoConduc.ObtenerTiposConduc();
         }
 
         public int Update(int idtipo, string nombretipo)
         {
-            AccesoDatos acceso = new AccesoDatos();
-            return acceso.updateTipoVehi(idtipo, nombretipo);
+            AccesoDatosTipoConduc acceso = new AccesoDatosTipoConduc();
+            return acceso.updateTipoConduc(idtipo, nombretipo);
         }
         public int delete(int idtipo)
         {
-            AccesoDatos acceso = new AccesoDatos();
-            return acceso.deleteTipoVehi(idtipo);
+            AccesoDatosTipoConduc acceso = new AccesoDatosTipoConduc();
+            return acceso.deleteTipoConduc(idtipo);
         }
 
     }

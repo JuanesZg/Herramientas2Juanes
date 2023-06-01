@@ -128,7 +128,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label3.Location = new System.Drawing.Point(118, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 16);
+            this.label3.Size = new System.Drawing.Size(131, 16);
             this.label3.TabIndex = 9;
             this.label3.Text = "VEHICULOS WCG";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -161,6 +161,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccesoLogica.cs" />
+    <Compile Include="AccesoLogicaTipoConduc.cs" />
+    <Compile Include="AccesoLogicaTipoVehi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
