@@ -85,7 +85,7 @@ create proc listarRuta as SELECT * FROM ruta ORDER BY id_ruta ASC;
 create proc registrarConductor (@id int, @nombre varchar(100), @tipolicencia varchar(100), @idvehiculo int, @idtipocondu int)
 as
 insert into conductor values(@id, @nombre, @tipolicencia, @idvehiculo, @idtipocondu);
---exec registrarConductor 3, 'Marcos', 'Moto', '2', 2;
+--exec registrarConductor 1, 'Marcos', 'Moto', 1, 1;
 
 /*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
 create proc actualizarConductor (@id int, @nombre varchar(100), @tipolicencia varchar(100), @idvehiculo int, @idtipocondu int)
@@ -102,3 +102,17 @@ delete from conductor where id_conductor = @id;
 /*PROCEDIMIENTO PARA MOSTRAR DATOS*/
 create proc listarConductor as SELECT * FROM conductor ORDER BY id_conductor ASC;
 --exec listarConductor;
+
+/*----------------------------------------------------------------------PROCEDIMIENTOS DE LA TABLA CONTRATO---------------------------------------------------------------------------*/
+/*PROCEDIMIENTO PARA INSERTAR DATOS*/
+create proc registrarContrato (@id int, @idvehi int, @idcondu int) as insert into contrato values(@id, @idvehi, @idcondu);
+--exec registrarContrato 1, 1, 1; 
+/*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
+create proc actualizarContrato (@id int, @idvehi int, @idcondu int) as update contrato set id_vehiculo = @idvehi, id_conductor = @idcondu where id_contrato = @id;
+--exec actualizarContrato 1, 2, 1;
+/*PROCEDIMIENTO PARA ELIMINAR DATOS*/
+create proc eliminarContrato (@id int) as delete from contrato where id_contrato = @id;
+--exec eliminarContrato 1;
+/*PROCEDIMIENTO PARA MOSTRAR DATOS*/
+create proc listarContrato as SELECT * FROM contrato ORDER BY id_contrato ASC;
+--exec listarContrato;

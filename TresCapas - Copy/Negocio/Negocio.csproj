@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoLogicaContrato.cs" />
     <Compile Include="AccesoLogicaTipoConduc.cs" />
     <Compile Include="AccesoLogicaRuta.cs" />
     <Compile Include="AccesoLogicaConductor.cs" />

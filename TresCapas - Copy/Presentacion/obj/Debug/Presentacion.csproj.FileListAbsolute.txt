@@ -48,3 +48,4 @@ C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacio
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormVehiculo.resources
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormVehiculo.resources
