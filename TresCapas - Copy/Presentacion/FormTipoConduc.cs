@@ -74,7 +74,6 @@ namespace Presentacion
                 negocioactualizar = null;
             }
         }
-
         private void btnEliminarTipoConduct_Click_1(object sender, EventArgs e)
         {
             AccesoLogicaTipoConduc negocioeliminar = new AccesoLogicaTipoConduc();
