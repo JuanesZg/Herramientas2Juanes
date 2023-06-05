@@ -17,7 +17,7 @@ namespace Negocio
             return acceso.Insert(idcontrato, idvehi, idcondu);
         }
 
-        public static DataTable ObtenerRuta()
+        public static DataTable ObtenerContrato()
         {
             return AccesoDatosContrato.ObtenerContrato();
         }
