@@ -39,4 +39,66 @@ exec actualizarTipoConductor 3, 'Juancho';
 exec eliminarTipoConductor 3;
 exec listarTipoConductor;
 */
-[dbo].[dbo].[]
+
+/*----------------------------------------------------------------------PROCEDIMIENTOS DE LA TABLA VEHICULO---------------------------------------------------------------------------*/
+/*PROCEDIMIENTO PARA INSERTAR DATOS*/
+create proc registrarVehiculo (@id int, @marca varchar(100), @modelo varchar(100), @matricula varchar(100), @anio int, @tipovehiculo int)
+as
+insert into vehiculo values(@id, @marca, @modelo, @matricula, @anio, @tipovehiculo);
+--exec registrarVehiculo 1, 'Mazda', 'Bolita', 'ABC123', 2019, 1;
+
+/*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
+create proc actualizarVehiculo (@id int, @marca varchar(100), @modelo varchar(100), @matricula varchar(100), @anio int, @tipovehiculo int)
+as
+update vehiculo set marca = @marca, modelo = @modelo, matricula = @matricula, anio = @anio, id_tipo_vehiculo = @tipovehiculo where id_vehiculo = @id;
+--exec actualizarVehiculo 1, 'BMW', 'X3', 'CBA321', 2023, 1;
+
+/*PROCEDIMIENTO PARA ELIMINAR DATOS*/
+create proc eliminarVehiculo (@id int) 
+as 
+delete from vehiculo where id_vehiculo = @id;
+--exec eliminarVehiculo 1;
+
+/*PROCEDIMIENTO PARA MOSTRAR DATOS*/
+create proc listarVehiculo as SELECT * FROM vehiculo ORDER BY id_vehiculo ASC;
+--exec listarVehiculo;
+
+/*----------------------------------------------------------------------PROCEDIMIENTOS DE LA TABLA RUTA---------------------------------------------------------------------------*/
+/*PROCEDIMIENTO PARA INSERTAR DATOS*/
+create proc registrarRuta (@id int, @estacion varchar(100), @vehiculo int) as insert into ruta values(@id, @estacion, @vehiculo);
+--exec registrarRuta 1, 'Parque Berrío', 2;
+
+/*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
+create proc actualizarRuta (@id int, @estacion varchar(100), @vehiculo varchar(100)) as update ruta set estacion = @estacion, id_vehiculo = @vehiculo where id_ruta = @id;
+--exec actualizarRuta 1, 'Poblado', 2;
+
+/*PROCEDIMIENTO PARA ELIMINAR DATOS*/
+create proc eliminarRuta (@id int) as delete from ruta where id_ruta = @id;
+--exec eliminarRuta 1;
+
+/*PROCEDIMIENTO PARA MOSTRAR DATOS*/
+create proc listarRuta as SELECT * FROM ruta ORDER BY id_ruta ASC;
+--exec listarRuta;
+
+/*----------------------------------------------------------------------PROCEDIMIENTOS DE LA TABLA CONDUCTOR---------------------------------------------------------------------------*/
+/*PROCEDIMIENTO PARA INSERTAR DATOS*/
+create proc registrarConductor (@id int, @nombre varchar(100), @tipolicencia varchar(100), @idvehiculo int, @idtipocondu int)
+as
+insert into conductor values(@id, @nombre, @tipolicencia, @idvehiculo, @idtipocondu);
+--exec registrarConductor 3, 'Marcos', 'Moto', '2', 2;
+
+/*PROCEDIMIENTO PARA ACTUALIZAR DATOS*/
+create proc actualizarConductor (@id int, @nombre varchar(100), @tipolicencia varchar(100), @idvehiculo int, @idtipocondu int)
+as
+update conductor set nombre = @nombre, tipo_licencia = @tipolicencia, id_vehiculo = @idvehiculo, id_tipo_conductor = @idtipocondu where id_conductor = @id;
+--exec actualizarConductor 3, 'Diego', 'Carro', 2, 2;
+
+/*PROCEDIMIENTO PARA ELIMINAR DATOS*/
+create proc eliminarConductor (@id int) 
+as 
+delete from conductor where id_conductor = @id;
+--exec eliminarConductor 2;
+
+/*PROCEDIMIENTO PARA MOSTRAR DATOS*/
+create proc listarConductor as SELECT * FROM conductor ORDER BY id_conductor ASC;
+--exec listarConductor;

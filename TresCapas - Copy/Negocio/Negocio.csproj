@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoLogicaTipoConduc.cs" />
+    <Compile Include="AccesoLogicaRuta.cs" />
+    <Compile Include="AccesoLogicaConductor.cs" />
+    <Compile Include="AccesoLogicaVehiculo.cs" />
     <Compile Include="AccesoLogicaTipoVehi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

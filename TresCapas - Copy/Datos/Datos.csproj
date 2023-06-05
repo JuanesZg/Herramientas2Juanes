@@ -42,10 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatosTipoConduc.cs" />
+    <Compile Include="AccesoDatosRuta.cs" />
+    <Compile Include="AccesoDatosConductor.cs" />
+    <Compile Include="AccesoDatosVehiculo.cs" />
     <Compile Include="AccesoDatosTipoVehi.cs" />
     <Compile Include="Configuracion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoConducCRUD.cs" />
+    <Compile Include="RutaCRUD.cs" />
+    <Compile Include="ConductorCRUD.cs" />
+    <Compile Include="VehiculoCRUD.cs" />
     <Compile Include="TipoVehiCRUD.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

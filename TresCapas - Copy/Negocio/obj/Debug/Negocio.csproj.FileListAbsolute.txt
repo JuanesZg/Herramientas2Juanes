@@ -16,3 +16,12 @@ C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\N
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.dll
 C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.pdb
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\bin\Debug\Negocio.dll
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\bin\Debug\Negocio.pdb
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\bin\Debug\Datos.dll
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\bin\Debug\Datos.pdb
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.dll
+C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Negocio\obj\Debug\Negocio.pdb

@@ -44,9 +44,10 @@
             // 
             // btnEliminarTipoConduct
             // 
-            this.btnEliminarTipoConduct.Location = new System.Drawing.Point(423, 341);
+            this.btnEliminarTipoConduct.Location = new System.Drawing.Point(564, 420);
+            this.btnEliminarTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarTipoConduct.Name = "btnEliminarTipoConduct";
-            this.btnEliminarTipoConduct.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarTipoConduct.Size = new System.Drawing.Size(100, 28);
             this.btnEliminarTipoConduct.TabIndex = 21;
             this.btnEliminarTipoConduct.Text = "Eliminar";
             this.btnEliminarTipoConduct.UseVisualStyleBackColor = true;
@@ -57,17 +58,19 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(304, 35);
+            this.label3.Location = new System.Drawing.Point(405, 43);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 16);
+            this.label3.Size = new System.Drawing.Size(165, 20);
             this.label3.TabIndex = 20;
             this.label3.Text = "VEHICULOS WCG";
             // 
             // btnModificarTipoConduct
             // 
-            this.btnModificarTipoConduct.Location = new System.Drawing.Point(423, 303);
+            this.btnModificarTipoConduct.Location = new System.Drawing.Point(564, 373);
+            this.btnModificarTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificarTipoConduct.Name = "btnModificarTipoConduct";
-            this.btnModificarTipoConduct.Size = new System.Drawing.Size(75, 23);
+            this.btnModificarTipoConduct.Size = new System.Drawing.Size(100, 28);
             this.btnModificarTipoConduct.TabIndex = 19;
             this.btnModificarTipoConduct.Text = "Modificar";
             this.btnModificarTipoConduct.UseVisualStyleBackColor = true;
@@ -76,16 +79,19 @@
             // dataGridViewTipoConduct
             // 
             this.dataGridViewTipoConduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTipoConduct.Location = new System.Drawing.Point(73, 210);
+            this.dataGridViewTipoConduct.Location = new System.Drawing.Point(97, 258);
+            this.dataGridViewTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewTipoConduct.Name = "dataGridViewTipoConduct";
-            this.dataGridViewTipoConduct.Size = new System.Drawing.Size(294, 187);
+            this.dataGridViewTipoConduct.RowHeadersWidth = 51;
+            this.dataGridViewTipoConduct.Size = new System.Drawing.Size(392, 230);
             this.dataGridViewTipoConduct.TabIndex = 18;
             // 
             // btnConsultarTipoConduct
             // 
-            this.btnConsultarTipoConduct.Location = new System.Drawing.Point(423, 259);
+            this.btnConsultarTipoConduct.Location = new System.Drawing.Point(564, 319);
+            this.btnConsultarTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnConsultarTipoConduct.Name = "btnConsultarTipoConduct";
-            this.btnConsultarTipoConduct.Size = new System.Drawing.Size(75, 23);
+            this.btnConsultarTipoConduct.Size = new System.Drawing.Size(100, 28);
             this.btnConsultarTipoConduct.TabIndex = 17;
             this.btnConsultarTipoConduct.Text = "Listar Tipos";
             this.btnConsultarTipoConduct.UseVisualStyleBackColor = true;
@@ -94,16 +100,18 @@
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(88, 168);
+            this.lblMensaje.Location = new System.Drawing.Point(117, 207);
+            this.lblMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 13);
+            this.lblMensaje.Size = new System.Drawing.Size(0, 16);
             this.lblMensaje.TabIndex = 16;
             // 
             // btnRegistrarTipoConduct
             // 
-            this.btnRegistrarTipoConduct.Location = new System.Drawing.Point(423, 220);
+            this.btnRegistrarTipoConduct.Location = new System.Drawing.Point(564, 271);
+            this.btnRegistrarTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarTipoConduct.Name = "btnRegistrarTipoConduct";
-            this.btnRegistrarTipoConduct.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrarTipoConduct.Size = new System.Drawing.Size(100, 28);
             this.btnRegistrarTipoConduct.TabIndex = 15;
             this.btnRegistrarTipoConduct.Text = "Registrar";
             this.btnRegistrarTipoConduct.UseVisualStyleBackColor = true;
@@ -111,41 +119,45 @@
             // 
             // txtNomTipoConduct
             // 
-            this.txtNomTipoConduct.Location = new System.Drawing.Point(189, 125);
+            this.txtNomTipoConduct.Location = new System.Drawing.Point(252, 154);
+            this.txtNomTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.txtNomTipoConduct.Name = "txtNomTipoConduct";
-            this.txtNomTipoConduct.Size = new System.Drawing.Size(100, 20);
+            this.txtNomTipoConduct.Size = new System.Drawing.Size(132, 22);
             this.txtNomTipoConduct.TabIndex = 14;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 128);
+            this.label2.Location = new System.Drawing.Point(93, 158);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.Size = new System.Drawing.Size(87, 16);
             this.label2.TabIndex = 13;
             this.label2.Text = "Nombre Tipo";
             // 
             // txtIDTipoConduct
             // 
-            this.txtIDTipoConduct.Location = new System.Drawing.Point(189, 89);
+            this.txtIDTipoConduct.Location = new System.Drawing.Point(252, 110);
+            this.txtIDTipoConduct.Margin = new System.Windows.Forms.Padding(4);
             this.txtIDTipoConduct.Name = "txtIDTipoConduct";
-            this.txtIDTipoConduct.Size = new System.Drawing.Size(100, 20);
+            this.txtIDTipoConduct.Size = new System.Drawing.Size(132, 22);
             this.txtIDTipoConduct.TabIndex = 12;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 89);
+            this.label1.Location = new System.Drawing.Point(93, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Id Tipo Vehiculo";
+            this.label1.Text = "Id Tipo Conductor";
             // 
             // FormTipoConduc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 450);
+            this.ClientSize = new System.Drawing.Size(800, 554);
             this.Controls.Add(this.btnEliminarTipoConduct);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnModificarTipoConduct);
@@ -157,8 +169,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtIDTipoConduct);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormTipoConduc";
-            this.Text = "FormTipoConduc";
+            this.Text = "Tipo Conductor";
             this.Load += new System.EventHandler(this.FormTipoConduc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTipoConduct)).EndInit();
             this.ResumeLayout(false);
