@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatosContrato.cs" />
     <Compile Include="AccesoDatosTipoConduc.cs" />
     <Compile Include="AccesoDatosRuta.cs" />
     <Compile Include="AccesoDatosConductor.cs" />
@@ -48,6 +49,7 @@
     <Compile Include="AccesoDatosTipoVehi.cs" />
     <Compile Include="Configuracion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ContratoCRUD.cs" />
     <Compile Include="TipoConducCRUD.cs" />
     <Compile Include="RutaCRUD.cs" />
     <Compile Include="ConductorCRUD.cs" />
