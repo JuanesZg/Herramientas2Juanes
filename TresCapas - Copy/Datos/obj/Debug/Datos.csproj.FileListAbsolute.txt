@@ -16,3 +16,9 @@ C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\D
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.dll
 C:\Users\juane\OneDrive\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.pdb
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\bin\Debug\Datos.dll
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\bin\Debug\Datos.pdb
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.dll
+C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Datos\obj\Debug\Datos.pdb

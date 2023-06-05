@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormConductor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConductor.Designer.cs">
+      <DependentUpon>FormConductor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContrato.Designer.cs">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRuta.Designer.cs">
+      <DependentUpon>FormRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTot.Designer.cs">
+      <DependentUpon>FormTot.cs</DependentUpon>
     </Compile>
     <Compile Include="FormVehiculo.cs">
       <SubType>Form</SubType>
@@ -66,11 +90,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormConductor.resx">
+      <DependentUpon>FormConductor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormContrato.resx">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRuta.resx">
+      <DependentUpon>FormRuta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTipoConduc.resx">
       <DependentUpon>FormTipoConduc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTot.resx">
+      <DependentUpon>FormTot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVehiculo.resx">
       <DependentUpon>FormVehiculo.cs</DependentUpon>

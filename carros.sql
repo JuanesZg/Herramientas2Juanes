@@ -63,3 +63,4 @@ ALTER TABLE contrato ADD CONSTRAINT fk_contrato_conductor FOREIGN KEY (id_conduc
 ALTER TABLE conductor ADD CONSTRAINT fk_conductor_vehiculo FOREIGN KEY (id_vehiculo) REFERENCES vehiculo (id_vehiculo);
 
 ALTER TABLE conductor ADD CONSTRAINT fk_conductor_tipo_conductor FOREIGN KEY (id_tipo_conductor) REFERENCES tipo_conductor (id_tipo_conductor);
+
