@@ -16,9 +16,13 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            Application.Run(new FormTipoConduc());
-            Application.Run(new FormVehiculo());
+            //Application.Run(new Form1());
+            //Application.Run(new FormTipoConduc());
+            //Application.Run(new FormVehiculo());
+            //Application.Run(new FormConductor());
+            //Application.Run(new FormRuta());
+            //Application.Run(new FormContrato());
+            Application.Run(new FormTot());
         }
     }
 }
