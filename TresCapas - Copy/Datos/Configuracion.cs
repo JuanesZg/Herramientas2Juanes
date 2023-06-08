@@ -8,7 +8,7 @@ namespace Datos
 {
     public class Configuracion
     {
-        static string cadenaConexion = @"Data Source=MEDREAFSTCDS012;Initial Catalog=Carros;Trusted_Connection=true";
+        static string cadenaConexion = @"Data Source=MEDREAFSTCDS013;Initial Catalog=Carros;Trusted_Connection=true";
         public static string CadenaConexion
         {
             get { return cadenaConexion; }

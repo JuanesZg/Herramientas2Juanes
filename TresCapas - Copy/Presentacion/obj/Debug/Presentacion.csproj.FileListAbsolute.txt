@@ -71,3 +71,7 @@ C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debu
 C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormRuta.resources
 C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormContrato.resources
 C:\Users\Sena\Desktop\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormTot.resources
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormConductor.resources
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormContrato.resources
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormRuta.resources
+C:\Users\Sena\Documents\Herramientas2Juanes\TresCapas - Copy\Presentacion\obj\Debug\Presentacion.FormTot.resources
